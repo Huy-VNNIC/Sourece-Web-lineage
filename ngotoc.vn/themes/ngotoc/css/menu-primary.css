@@ -1,0 +1,44 @@
+.primary {
+    background-color: rgb(217, 48, 8);
+    border-color: rgb(230, 85, 0);
+    background-color: #dc3209;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dc3209), to(#d62d08));
+    background-image: -webkit-linear-gradient(top, #dc3209, #d62d08);
+    background-image: -moz-linear-gradient(top, #dc3209, #d62d08);
+    background-image: -o-linear-gradient(top, #dc3209, #d62d08);
+    background-image: linear-gradient(to bottom, #dc3209, #d62d08);
+    border-bottom: 0px solid #b42606;
+    zoom: 1;
+    background-color: #d62d08;
+    background-image: -webkit-linear-gradient(bottom, #d62d08 15%, #e23809 100%);
+    background-image: linear-gradient(to top, #d62d08 15%, #e23809 100%);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #e65500;
+}
+
+.primary a {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul.primary li {
+    float: none;
+    display: inline-block;
+    padding: 6px 20px;
+}
+
+ul.primary li a {
+    color: #FFF;
+}
+
+ul.primary li.active a {
+    color: #FF0;
+}

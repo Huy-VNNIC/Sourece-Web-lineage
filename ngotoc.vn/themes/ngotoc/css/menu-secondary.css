@@ -1,0 +1,22 @@
+ul.secondary {
+    padding: 5px 10px 10px;
+}
+
+ul.secondary a {
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #910000;
+    font-weight: 600;
+}
+
+ul.secondary li a:hover {
+    color: #d72d08;
+}
+
+ul.secondary li {
+    margin: 5px 0px;
+}
+
+ul.secondary li.danhba-border-top:last-child {
+    display: none;
+}

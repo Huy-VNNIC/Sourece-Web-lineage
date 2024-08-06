@@ -1,0 +1,25 @@
+ul.listnews {
+    margin: 0;
+    padding: 0;
+}
+
+ul.listnews li {
+    margin-bottom: 10px;
+}
+
+ul.listnews li a {
+    padding-left: 10px;
+}
+
+.fa-stop {
+    font-size: 8px;
+    color: #910000;
+    display: flex;
+    padding: 0 !important;
+    line-height: 18px;
+}
+
+.fa-stop a {
+    font-size: 13px;
+    font-family: Helvetica;
+}
